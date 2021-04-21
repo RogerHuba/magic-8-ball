@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Magic 8 Ball</title>
+        <title>Magic Eight Ball</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -55,7 +55,7 @@ export default function Home() {
     return(
       <header className="flex items-center justify-between p-4 bg-gray-500 text-gray-50">
         <h1>Magic 8 Ball</h1>
-        <p>{props.answeredQuestionArray.length} Questions Answered</p>
+        <p>{props.answeredQuestionArray.length}  :Predictions</p>
       </header>
     )
   }
